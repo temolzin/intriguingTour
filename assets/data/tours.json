@@ -1,0 +1,311 @@
+{
+  "1": {
+    "title": "Paquete 1: Globo + Desayuno + Pirámides",
+    "price": 3799,
+    "old_price": 4559,
+    "duration": "7-8 horas",
+    "images": ["assets/images/package/tourGlobo.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourCueva.jpg"],
+    "overview": "Vuelo en globo con desayuno buffet, entradas a la zona arqueológica, guía certificado ES/EN, transporte ida y vuelta, degustación de bebidas artesanales y explicación de obsidiana.",
+    "includes": [
+      "Transportación desde hotel/Airbnb (ida y vuelta)",
+      "Coffee break",
+      "Vuelo en globo aerostático (1 hora aprox)",
+      "Certificado de vuelo",
+      "Seguro de viajero",
+      "Brindis con vino espumoso",
+      "Desayuno buffet",
+      "Entradas a zona arqueológica",
+      "Guía certificado ES/EN",
+      "Degustación de pulque y tequila",
+      "Explicación de obsidiana",
+      "Botella de agua"
+    ],
+    "excludes": ["Compras personales", "Propinas"],
+    "highlights": [
+      "Vuelo en globo de 1 hora",
+      "Desayuno buffet",
+      "Entradas y guía en pirámides",
+      "Transporte ida y vuelta incluido",
+      "Degustación y explicación de obsidiana",
+      "Brindis y certificado de vuelo"
+    ],
+    "itinerary": [
+      "Recogida en hotel 5:10-5:45 AM",
+      "Coffee break",
+      "Vuelo en globo (1 hora aprox)",
+      "Brindis y certificado",
+      "Desayuno buffet",
+      "Visita a pirámides con guía y entradas",
+      "Degustación de bebidas y obsidiana",
+      "Regreso al hotel"
+    ],
+    "faqs": [
+      ["¿Edad mínima?", "6 años en adelante."],
+      ["¿Qué pasa si hay mal clima?", "El vuelo puede cancelarse; reembolso hasta 5 días antes."],
+      ["¿Duración?", "7-8 horas totales."],
+      ["¿Qué llevar?", "Bloqueador, gorra/sombrero, lentes de sol, calzado cómodo."],
+      ["¿Incluye entradas?", "Sí, a la zona arqueológica con guía certificado."]
+    ]
+  },
+  "2": {
+    "title": "Paquete 2: Cuevas + Pirámides con Transporte",
+    "price": 2200,
+    "old_price": 2640,
+    "duration": "6 horas",
+    "images": ["assets/images/package/tourglobos.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tourCueva.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg"],
+    "overview": "Entradas y guía a pirámides, cuevas ancestrales, casa del artesano, degustación de bebidas y explicación de obsidiana, con transporte ida y vuelta.",
+    "includes": [
+      "Transportación desde hotel/Airbnb (ida y vuelta)",
+      "Entradas y guía certificado ES/EN en pirámides",
+      "Visita a cuevas ancestrales (boleto incluido)",
+      "Visita a casa del artesano",
+      "Degustación de pulque y tequila",
+      "Explicación de obsidiana",
+      "Seguro de viajero",
+      "Botella de agua"
+    ],
+    "excludes": ["Comida", "Propinas", "Compras personales", "Restaurante opcional +$300 MXN (solo traslado)"]
+    ,
+    "highlights": [
+      "Cuevas ancestrales con guía",
+      "Entradas y guía en zona arqueológica",
+      "Transporte ida y vuelta incluido",
+      "Degustación y obsidiana",
+      "Opción de restaurante con traslado (+$300 MXN)"
+    ],
+    "itinerary": [
+      "Recogida en hotel",
+      "Traslado a Teotihuacan",
+      "Visita a pirámides con guía y entradas",
+      "Casa del artesano",
+      "Cuevas ancestrales",
+      "Degustación de bebidas",
+      "Regreso a CDMX"
+    ],
+    "faqs": [
+      ["¿Duración?", "6 horas aprox."],
+      ["¿Incluye comida?", "No; traslado opcional a restaurante +$300 MXN."],
+      ["¿Política de cancelación?", "Reembolso hasta 2 días antes."],
+      ["¿Qué llevar?", "Sombrero, bloqueador, lentes, calzado cómodo."],
+      ["¿Incluye transporte?", "Sí, ida y vuelta."]
+    ]
+  },
+  "3": {
+    "title": "Paquete 3: Pirámides + Transporte",
+    "price": 1950,
+    "old_price": 2340,
+    "duration": "5 horas",
+    "images": ["assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/tourCueva.jpg"],
+    "overview": "Entradas y guía a pirámides con transporte ida y vuelta, casa del artesano y degustación de bebidas.",
+    "includes": [
+      "Transportación desde hotel/Airbnb (ida y vuelta)",
+      "Entradas y guía certificado ES/EN en pirámides",
+      "Visita a casa del artesano",
+      "Degustación de pulque y tequila",
+      "Seguro de viajero",
+      "Botella de agua"
+    ],
+    "excludes": ["Comida", "Propinas", "Compras personales"],
+    "highlights": [
+      "Guía y entradas incluidas",
+      "Transporte ida y vuelta",
+      "Degustación de bebidas",
+      "Ruta ágil de 5 horas"
+    ],
+    "itinerary": [
+      "Recogida en hotel",
+      "Visita a pirámides con guía",
+      "Casa del artesano",
+      "Degustación",
+      "Regreso a CDMX"
+    ],
+    "faqs": [
+      ["¿Duración?", "5 horas aprox."],
+      ["¿Incluye comida?", "No."],
+      ["¿Política de cancelación?", "Reembolso hasta 2 días antes."],
+      ["¿Qué llevar?", "Sombrero, bloqueador, lentes, calzado cómodo."],
+      ["¿Incluye transporte?", "Sí, ida y vuelta."]
+    ]
+  },
+  "4": {
+    "title": "Paquete 4: Globo + Desayuno Buffet",
+    "price": 3500,
+    "old_price": 4200,
+    "duration": "4 horas",
+    "images": ["assets/images/package/tourGlobo.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourCuatrimotos.jpg"],
+    "overview": "Vuelo en globo de 1 hora con coffee break, brindis, certificado, desayuno buffet en restaurante y transporte ida y vuelta.",
+    "includes": [
+      "Transportación desde hotel/Airbnb (ida y vuelta)",
+      "Vuelo en globo aerostático (1 hora aprox)",
+      "Certificado de vuelo",
+      "Coffee break",
+      "Brindis con vino espumoso",
+      "Seguro de viajero",
+      "Desayuno buffet (Gran Teocalli, Huehueteotl o La Cueva)"
+    ],
+    "excludes": ["Propinas", "Compras personales"],
+    "highlights": [
+      "Vuelo en globo",
+      "Brindis y certificado",
+      "Desayuno buffet en restaurante",
+      "Transporte incluido"
+    ],
+    "itinerary": [
+      "Recogida 5:15-5:45 AM",
+      "Coffee break",
+      "Vuelo en globo (1 hora aprox)",
+      "Brindis y certificado",
+      "Desayuno buffet",
+      "Regreso"
+    ],
+    "faqs": [
+      ["¿Clima y cancelación?", "Si no se puede volar por clima, hay reembolso."],
+      ["¿Edad mínima?", "6 años."],
+      ["¿Duración?", "4 horas aprox."],
+      ["¿Horario de recogida?", "Entre 5:15 y 5:45 AM."],
+      ["¿Incluye transporte?", "Sí, ida y vuelta."]
+    ]
+  },
+  "5": {
+    "title": "Paquete 5: Pirámides Exprés",
+    "price": 700,
+    "old_price": 840,
+    "duration": "3 horas",
+    "images": ["assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/tourCueva.jpg"],
+    "overview": "Entradas y guía a pirámides con degustación y explicación de obsidiana. No incluye transporte.",
+    "includes": [
+      "Entradas y guía certificado ES/EN en pirámides",
+      "Visita a casa del artesano",
+      "Degustación de bebidas artesanales y obsidiana",
+      "Botella de agua"
+    ],
+    "excludes": ["Transporte", "Comida", "Propinas", "Compras personales"],
+    "highlights": [
+      "Guía y entradas incluidas",
+      "Degustación de pulque/tequila",
+      "Precio accesible",
+      "No incluye transporte"
+    ],
+    "itinerary": [
+      "Punto de encuentro",
+      "Visita a pirámides con guía",
+      "Casa del artesano y degustación",
+      "Fin del recorrido"
+    ],
+    "faqs": [
+      ["¿Duración?", "3 horas aprox."],
+      ["¿Incluye transporte?", "No, llegas por tu cuenta."],
+      ["¿Política de cancelación?", "Reembolso hasta 2 días antes."],
+      ["¿Qué llevar?", "Sombrero, bloqueador, lentes, calzado cómodo."],
+      ["¿Puedo ir a restaurante?", "Sí, traslado opcional +$300 MXN."]
+    ]
+  },
+  "6": {
+    "title": "Paquete 6: Globo sin Transporte",
+    "price": 2500,
+    "old_price": 3000,
+    "duration": "3-4 horas",
+    "images": ["assets/images/package/tourglobos.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tour4.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tourCuatrimotos.jpg"],
+    "overview": "Vuelo en globo de 45-60 minutos sin transporte, con certificado, seguro, brindis y desayuno buffet.",
+    "includes": [
+      "Vuelo en globo aerostático (45-60 min)",
+      "Certificado de vuelo",
+      "Seguro de viajero",
+      "Brindis con vino espumoso",
+      "Desayuno buffet"
+    ],
+    "excludes": ["Transporte", "Comida a la carta", "Propinas", "Compras personales"],
+    "highlights": [
+      "Vuelo en globo",
+      "Brindis y certificado",
+      "Desayuno buffet",
+      "Opción sin transporte"
+    ],
+    "itinerary": [
+      "Llegada por cuenta propia",
+      "Check-in y coffee break",
+      "Vuelo en globo",
+      "Brindis y certificado",
+      "Desayuno buffet"
+    ],
+    "faqs": [
+      ["¿Incluye transporte?", "No, debes llegar por tu cuenta."],
+      ["¿Cancelación?", "Reembolso hasta 5 días antes."],
+      ["¿Duración?", "3-4 horas aprox."],
+      ["¿Qué incluye?", "Vuelo, certificado, seguro, brindis, desayuno."],
+      ["¿Qué llevar?", "Sombrero, bloqueador, lentes, calzado cómodo."]
+    ]
+  },
+  "7": {
+    "title": "Paquete 7: Cuatrimoto (2 personas)",
+    "price": 1600,
+    "old_price": 1920,
+    "duration": "2.5-3 horas",
+    "images": ["assets/images/package/tourCuatrimotos.jpg", "assets/images/package/tourCueva.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourGlobo.jpg"],
+    "overview": "Tour en cuatrimoto para dos personas por circuito arqueológico externo, con cueva ancestral y degustaciones.",
+    "includes": [
+      "Recorrido en circuito arqueológico (externo a la zona)",
+      "Visita a cueva ancestral",
+      "Degustación de bebidas y explicación de obsidiana",
+      "Taller de cacao",
+      "Taller de mezcal (opcional)"
+    ],
+    "excludes": ["Propinas", "Compras personales", "Transporte"],
+    "highlights": [
+      "Cuatrimoto para 2 personas",
+      "Cueva ancestral",
+      "Degustación y obsidiana",
+      "Taller de cacao y mezcal opcional"
+    ],
+    "itinerary": [
+      "Briefing y equipo",
+      "Recorrido en circuito",
+      "Visita a cueva",
+      "Degustaciones (obsidiana, cacao, bebidas)",
+      "Regreso al punto de inicio"
+    ],
+    "faqs": [
+      ["¿Duración?", "2.5-3 horas aprox."],
+      ["¿Incluye transporte?", "No, se llega por cuenta propia."],
+      ["¿Cancelación?", "Reembolso hasta 5 días antes."],
+      ["¿Edad mínima?", "18 años para conducir."],
+      ["¿Qué llevar?", "Sombrero, bloqueador, lentes, calzado cómodo."]
+    ]
+  },
+  "8": {
+    "title": "Paquete 8: Pirámides + Desayuno Buffet + Transporte",
+    "price": 2799,
+    "old_price": 3359,
+    "duration": "6 horas",
+    "images": ["assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tourCueva.jpg"],
+    "overview": "Visita a pirámides con guía y entradas, desayuno buffet (La Cueva o Gran Teocalli), transporte ida y vuelta, degustación y explicación de obsidiana.",
+    "includes": [
+      "Transportación desde hotel/Airbnb (ida y vuelta)",
+      "Entradas y guía certificado ES/EN en pirámides",
+      "Desayuno buffet (Gran Teocalli o La Cueva)",
+      "Explicación de obsidiana y degustación de bebidas",
+      "Hidratación"
+    ],
+    "excludes": ["Propinas", "Compras personales"],
+    "highlights": [
+      "Desayuno buffet incluido",
+      "Entradas y guía",
+      "Transporte ida y vuelta",
+      "Degustación y obsidiana"
+    ],
+    "itinerary": [
+      "Recogida en hotel",
+      "Desayuno buffet",
+      "Visita a pirámides con guía y entradas",
+      "Degustación y obsidiana",
+      "Regreso a CDMX"
+    ],
+    "faqs": [
+      ["¿Cancelación?", "Reembolso hasta 4 días antes."],
+      ["¿Duración?", "6 horas aprox."],
+      ["¿Qué llevar?", "Sombrero, bloqueador, lentes, calzado cómodo."],
+      ["¿Incluye transporte?", "Sí, ida y vuelta."],
+      ["¿Dónde es el desayuno?", "En La Cueva o Gran Teocalli (buffet)."]
+    ]
+  }
+}

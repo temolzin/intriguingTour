@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Página 404 personalizada
+ErrorDocument 404 /404NotFound/index.html
+
+# Pretty URLs for tour details
+RewriteRule ^tour-details/([0-9]+)$ tour-details.php [L,QSA]
+
+# Redirigir URLs sin extensión a .php solo si el archivo .php existe
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]

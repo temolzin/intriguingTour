@@ -1,0 +1,704 @@
+<?php include __DIR__ . '/header.php'; ?>
+
+    <!-- rts banner area start -->
+    <div class="rts-banner-area-four" data-bg-src="assets/images/banner/piramides.jpg">
+        <div class="container">
+            <div class="rts-banner-wrapper">
+                <h1 class="title move-right">
+                    INTRIGUING TOURS
+                </h1>
+                <div class="video-content-area wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="vedio-icone">
+                        <a class="video-play-button play-video popup-video" href="https://www.youtube.com/watch?v=tciw3U8B79M">
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.25 18.0001C1.05109 18.0001 0.860322 17.921 0.71967 17.7804C0.579018 17.6397 0.5 17.449 0.5 17.2501V0.750056C0.49999 0.619719 0.533947 0.49163 0.598521 0.378415C0.663096 0.2652 0.75606 0.170767 0.868249 0.104426C0.980438 0.0380846 1.10798 0.00212461 1.2383 9.12923e-05C1.36862 -0.00194202 1.49722 0.0300215 1.61143 0.0928306L16.6114 8.34283C16.7291 8.40755 16.8273 8.50267 16.8956 8.61827C16.964 8.73388 17 8.86572 17 9.00002C17 9.13432 16.964 9.26616 16.8956 9.38176C16.8273 9.49736 16.7291 9.59249 16.6114 9.65721L1.61143 17.9072C1.50069 17.9681 1.37637 18 1.25 18.0001Z" fill="white" />
+                            </svg>
+                        </a>
+                        <div class="video-overlay">
+                            <a href="#section1" class="video-overlay-close">×</a>
+                        </div>
+                    </div>
+                    <p class="desc">Descubre la majestuosidad de Teotihuacan desde el cielo en un tour en globo aerostático. Explora las pirámides y la historia antigua desde las alturas.</p>
+                    <a href="tours" class="rts-btn btn-primary">Tours Disponibles</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner-hero">
+            <img class="wow scaleIn" data-wow-delay="1.2s" src="assets/images/banner/globo.png" width="400" alt="">
+        </div>
+        <a href="#destination" class="jump-to-down"><img src="assets/images/banner/icon/mouse.svg" alt=""></a>
+        <div class="social-area">
+            <ul>
+                <li>
+                    Síguenos -
+                </li>
+                <li><a href="https://www.instagram.com/intriguingtours_1996" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@intriguingtours_1996" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61585735384700&rdid=DC0ZLhGHoLv3aynR&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HAPGw6aVq%2F#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- rts banner area end -->
+
+    <!-- rts Destinations area start -->
+    <section id="destination" class="rts-destination-area rts-section-gap body-bg-five">
+        <div class="container">
+            <div class="section-title-area center-style">
+                <p class="sub-title wow fadeInUp" data-wow-delay="0.2s">Destino</p>
+                <h2 class="section-title text-uppercase wow fadeInUp" data-wow-delay="0.4s">Principales Destinos en Teotihuacan</h2>
+            </div>
+            <div class="section-inner mt--60">
+                <div class="outer-box overflow-hidden radius-10 wow fadeInUp" data-wow-delay="0.4s">
+                    <!-- Project Block -->
+                    <div class="project-block-four">
+                        <div class="image-area">
+                            <img src="assets/images/destination/piramideDelSol.jpg" width="630" alt="">
+                        </div>
+                        <div class="content-area">
+                            <p><i class="fa-light fa-location-dot"></i> Teotihuacan</p>
+                            <h4 class="title"><a href="#">Pirámide del Sol</a></h4>
+                        </div>
+                    </div>
+                    <!-- Project Block -->
+                    <div class="project-block-four">
+                        <div class="image-area">
+                            <img src="assets/images/destination/piramideDeLaLuna.jpg" width="630" alt="">
+                        </div>
+                        <div class="content-area">
+                            <p><i class="fa-light fa-location-dot"></i> Teotihuacan</p>
+                            <h4 class="title"><a href="#">Pirámide de la Luna</a></h4>
+                        </div>
+                    </div>
+                    <!-- Project Block -->
+                    <div class="project-block-four">
+                        <div class="image-area">
+                            <img src="assets/images/destination/calzadaDeLosMuertos.jpg" width="630" alt="">
+                        </div>
+                        <div class="content-area">
+                            <p><i class="fa-light fa-location-dot"></i> Teotihuacan</p>
+                            <h4 class="title"><a href="#">Calzada de los Muertos</a></h4>
+                        </div>
+                    </div>
+                    <!-- Project Block -->
+                    <div class="project-block-four active">
+                        <div class="image-area">
+                            <img src="assets/images/destination/Ciudadela.jpg" width="630" alt="">
+                        </div>
+                        <div class="content-area">
+                            <p><i class="fa-light fa-location-dot"></i> Teotihuacan</p>
+                            <h4 class="title"><a href="#">Ciudadela</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rts Destinations area end -->
+
+    <!-- rts Popular Pack area start -->
+    <section class="rts-popular-package-area rts-section-gap">
+        <div class="container">
+            <div class="section-top-area d-flex align-items-center justify-content-between">
+                <div class="section-title-area wow fadeInLeft" data-wow-delay="0.2s">
+                    <p class="sub-title">Paquete en Globo</p>
+                    <h2 class="section-title mb-0 text-uppercase">Explora Tours de Aventura en Globo.</h2>
+                    <p class="desc">Un viaje vivo y respirando a las alturas sobre las pirámides antiguas, culturas ancestrales.</p>
+                </div>
+                <div class="button-area mb--15 wow fadeInRight" data-wow-delay="0.2s">
+                    <a href="tours" class="rts-btn text-btn with-arrow">Explorar Más <i class="fa-regular fa-arrow-up up-right"></i></a>
+                </div>
+            </div>
+            <div class="section-inner position-relative mt--60 pb--80 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="swiper trip-slider3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/1">
+                                        <img class="hover-image" src="assets/images/package/tourGlobo.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/1">Globo + Desayuno + Pirámides</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 1 Hora</p>
+                                        <p class="price">Desde $150</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/2">
+                                        <img class="hover-image" src="assets/images/package/tourCueva.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/2">Cuevas + Pirámides con Transporte</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 2 Horas</p>
+                                        <p class="price">Desde $250</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/3">
+                                        <img class="hover-image" src="assets/images/package/piramyds.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/3">Pirámides + Transporte</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 3 Horas</p>
+                                        <p class="price">Desde $350</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/4">
+                                        <img class="hover-image" src="assets/images/package/tourglobos.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/4">Globo + Desayuno Buffet</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 4 Horas</p>
+                                        <p class="price">Desde $450</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/5">
+                                        <img class="hover-image" src="assets/images/package/tour4.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/5">Pirámides Exprés</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 1.5 Horas</p>
+                                        <p class="price">Desde $200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/6">
+                                        <img class="hover-image" src="assets/images/package/tour02globo.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/6">Globo sin Transporte</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 2 Horas</p>
+                                        <p class="price">Desde $300</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="package-wrapper2 radius-10 image-transform">
+                                <div class="image-area">
+                                    <a href="tour-details/7">
+                                        <img class="hover-image" src="assets/images/package/tourCuatrimotos.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    </a>
+                                </div>
+                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
+                                <div class="content">
+                                    <ul class="meta-content">
+                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
+                                    </ul>
+                                    <h5 class="title"><a href="tour-details/7">Cuatrimoto (2 personas)</a></h5>
+                                    <div class="bottom-meta">
+                                        <p><i class="fa-light fa-clock"></i> 3 Horas</p>
+                                        <p class="price">Desde $500</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-nav-pag-area">
+                    <div class="swiper-pagination3"></div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-btn swiper-btn-prev3"><i class="fa-regular fa-chevron-left"></i></div>
+                        <div class="swiper-btn swiper-btn-next3"><i class="fa-regular fa-chevron-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rts Popular Pack area end -->
+
+    <!-- rts Activities area start -->
+    <section class="rts-activities-area rts-section-gapBottom">
+        <div class="container">
+            <div class="section-title-area center-style">
+                <p class="sub-title wow fadeInUp" data-wow-delay="0.2s">Destino</p>
+                <h2 class="section-title text-uppercase wow fadeInUp" data-wow-delay="0.4s">Actividades en Teotihuacan</h2>
+            </div>
+            <div class="section-inner mt--60">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                        <div class="activity-wrapper2 wow fadeInRight" data-wow-delay="0.2s">
+                            <div class="image-area radius-10 image-transform" style="height: 280px; overflow: hidden;">
+                                <a class="popup-gallery" href="assets/images/activity/01.jpeg"><img class="hover-image" src="assets/images/activity/01.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title">
+                                    <a href="#" class="popup-gallery-link" data-mfp-src="assets/images/activity/01.jpeg">Momentos Inolvidables</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                        <div class="activity-wrapper2 wow fadeInRight" data-wow-delay="0.4s">
+                            <div class="image-area radius-10 image-transform" style="height: 280px; overflow: hidden;">
+                                <a class="popup-gallery" href="assets/images/activity/02.jpeg"><img class="hover-image" src="assets/images/activity/02.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title">
+                                    <a href="#" class="popup-gallery-link" data-mfp-src="assets/images/activity/02.jpeg">Experiencias Compartidas</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                        <div class="activity-wrapper2 wow fadeInRight" data-wow-delay="0.8s">
+                            <div class="image-area radius-10 image-transform" style="height: 280px; overflow: hidden;">
+                                <a class="popup-gallery" href="assets/images/activity/03.jpeg"><img class="hover-image" src="assets/images/activity/03.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title">
+                                    <a href="#" class="popup-gallery-link" data-mfp-src="assets/images/activity/03.jpeg">Historias de Viajeros</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                        <div class="activity-wrapper2 wow fadeInRight" data-wow-delay="1s">
+                            <div class="image-area radius-10 image-transform" style="height: 280px; overflow: hidden;">
+                                <a class="popup-gallery" href="assets/images/activity/04.jpeg"><img class="hover-image" src="assets/images/activity/04.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title">
+                                    <a href="#" class="popup-gallery-link" data-mfp-src="assets/images/activity/04.jpeg">Con Nuestro Equipo</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                        <div class="activity-wrapper2 wow fadeInRight" data-wow-delay="1.2s">
+                            <div class="image-area radius-10 image-transform" style="height: 280px; overflow: hidden;">
+                                <a class="popup-gallery" href="assets/images/activity/05.jpeg"><img class="hover-image" src="assets/images/activity/05.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"></a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title">
+                                    <a href="#" class="popup-gallery-link" data-mfp-src="assets/images/activity/05.jpeg">Recuerdos Especiales</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rts Activities area end -->
+
+    <!-- rts Why Choose Us area start -->
+    <section class="rts-why-choose-us-area rts-section-gap body-bg-five">
+        <div class="container">
+            <div class="section-inner">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="why-choose-left-image-area2">
+                            <div class="image-1 radius-10 overflow-hidden wow zoomIn" data-wow-delay="0.4s">
+                                <img class="wow scaleIn" data-wow-delay="0.4s" src="assets/images/why-choose/globo1.jpg" width="330" alt="">
+                            </div>
+                            <div class="image-2 radius-10 overflow-hidden wow zoomIn" data-wow-delay="0.4s">
+                                <img class="wow scaleIn" data-wow-delay="0.4s" src="assets/images/why-choose/globo2.jpg" width="228" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="why-choose-right-side-content">
+                            <div class="section-title-area">
+                                <p class="sub-title">¿Por Qué Elegirnos?</p>
+                                <h2 class="section-title text-uppercase mb-0">La Experiencia de Tours en Globo, Redefinida</h2>
+                                <p class="desc">No somos solo una agencia de viajes — somos tu puerta de entrada a las alturas emocionantes de Teotihuacan.</p>
+                            </div>
+                            <ul class="why-choose-wrapper-list2">
+                                <li class="wow fadeInRight" data-wow-delay="0.5s">
+                                    <div class="icon"><img src="assets/images/why-choose/icon/07.svg" alt=""></div>
+                                    <div class="content">
+                                        <h6 class="title">Guiados por Expertos en Globo</h6>
+                                        <p>Viaja con guías experimentados que conocen cada ruta aérea.</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInRight" data-wow-delay="0.7s">
+                                    <div class="icon"><img src="assets/images/why-choose/icon/08.svg" alt=""></div>
+                                    <div class="content">
+                                        <h6 class="title">Seguridad Primero, Siempre</h6>
+                                        <p>Viaja con guías experimentados que conocen cada ruta aérea.</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInRight" data-wow-delay="0.9s">
+                                    <div class="icon"><img src="assets/images/why-choose/icon/09.svg" alt=""></div>
+                                    <div class="content">
+                                        <h6 class="title">Destinos en las Alturas</h6>
+                                        <p>Viaja con guías experimentados que conocen cada ruta aérea.</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInRight" data-wow-delay="1.1s">
+                                    <div class="icon"><img src="assets/images/why-choose/icon/10.svg" alt=""></div>
+                                    <div class="content">
+                                        <h6 class="title">Experiencias Personalizadas</h6>
+                                        <p>Viaja con guías experimentados que conocen cada ruta aérea.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rts Why Choose Us area end -->
+
+    <!-- rts Testimonials area start -->
+    <section class="rts-testimonials-area rts-section-gap">
+        <div class="container">
+            <div class="section-title-area center-style">
+                <p class="sub-title wow fadeInUp" data-wow-delay="0.2s">Testimonios</p>
+                <h2 class="section-title wow fadeInUp" data-wow-delay="0.4s">Qué Dicen Nuestros Viajeros</h2>
+                <p class="desc wow fadeInUp" data-wow-delay="0.6s">Escucha a nuestros felices viajeros de todo el mundo.</p>
+            </div>
+            <div class="section-inner mt--60">
+                <div class="swiper testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonials-wrapper-four radius-10 body-bg-five">
+                                <div class="image-area wow scaleIn" data-wow-delay="0.2s">
+                                    <img class="radius-6" src="assets/images/testimonials/03.svg" width="353" alt="">
+                                </div>
+                                <div class="content-area">
+                                    <div class="quote"><img src="assets/images/testimonials/quote.svg" alt=""></div>
+                                    <p class="text text-uppercase">¡Increíble vuelo en globo sobre Teotihuacan! Las vistas de las pirámides desde el aire son espectaculares. Recomiendo totalmente este tour.</p>
+                                    <div class="author">
+                                        <h5 class="text-uppercase">Diana Hernández</h5>
+                                        <p>Ciudad de México, México</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-wrapper-four radius-10 body-bg-five">
+                                <div class="image-area">
+                                    <img class="radius-6" src="assets/images/testimonials/01.webp" width="353" alt="">
+                                </div>
+                                <div class="content-area">
+                                    <div class="quote"><img src="assets/images/testimonials/quote.svg" alt=""></div>
+                                    <p class="text text-uppercase">Una aventura única. Explorar la historia de Teotihuacan desde las alturas fue mágico. El equipo es profesional y amable.</p>
+                                    <div class="author">
+                                        <h5 class="text-uppercase">Esteban Huerta</h5>
+                                        <p>Puebla, México</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-wrapper-four radius-10 body-bg-five">
+                                <div class="image-area">
+                                    <img class="radius-6" src="assets/images/testimonials/author-02.svg" width="353" alt="">
+                                </div>
+                                <div class="content-area">
+                                    <div class="quote"><img src="assets/images/testimonials/quote.svg" alt=""></div>
+                                    <p class="text text-uppercase">Me encantó el tour en globo. La Pirámide del Sol se ve majestuosa desde arriba. Una experiencia que no olvidaré.</p>
+                                    <div class="author">
+                                        <h5 class="text-uppercase">Pablo Narvarte</h5>
+                                        <p>Ciudad de México, México</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-wrapper-four radius-10 body-bg-five">
+                                <div class="image-area">
+                                    <img class="radius-6" src="assets/images/testimonials/author-01.svg" width="353" alt="">
+                                </div>
+                                <div class="content-area">
+                                    <div class="quote"><img src="assets/images/testimonials/quote.svg" alt=""></div>
+                                    <p class="text text-uppercase">Viajar en globo aerostático sobre Teotihuacan fue lo mejor. La brisa, las vistas, todo perfecto. ¡Vuelvan pronto!</p>
+                                    <div class="author">
+                                        <h5 class="text-uppercase">Mauricio Duarte</h5>
+                                        <p>Querétaro, México</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-wrapper-four radius-10 body-bg-five">
+                                <div class="image-area">
+                                    <img class="radius-6" src="assets/images/testimonials/02.webp" width="353" alt="">
+                                </div>
+                                <div class="content-area">
+                                    <div class="quote"><img src="assets/images/testimonials/quote.svg" alt=""></div>
+                                    <p class="text text-uppercase">Excelente servicio. El guía explicó todo sobre la historia mientras volábamos. Tours en Teotihuacan en globo es lo máximo.</p>
+                                    <div class="author">
+                                        <h5 class="text-uppercase">Carlos Martínez</h5>
+                                        <p>Ciudad de México, México</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-navigation">
+                    <div class="swiper-btn swiper-btn-prev5 radius-6"><i class="fa-regular fa-chevron-left"></i></div>
+                    <div class="swiper-btn swiper-btn-next5 radius-6"><i class="fa-regular fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rts Testimonials area end -->
+
+    <!-- rts Counter area start -->
+    <div class="rts-counter-area rts-section-gapBottom">
+        <div class="container">
+            <div class="section-inner">
+                <div class="counter-wrapper radius-10 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="icon">
+                        <img src="assets/images/counter/01.svg" alt="">
+                    </div>
+                    <div class="counter-area">
+                        <h2 class="title"><span class="odometer" data-count="15"></span>K+</h2>
+                        <span class="done">Clientes Satisfechos</span>
+                    </div>
+                </div>
+                <div class="counter-wrapper radius-10 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="icon">
+                        <img src="assets/images/counter/02.svg" alt="">
+                    </div>
+                    <div class="counter-area">
+                        <h2 class="title"><span class="odometer" data-count="5"></span>+</h2>
+                        <span class="done">Paquetes de Tour</span>
+                    </div>
+                </div>
+                <div class="counter-wrapper radius-10 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="icon">
+                        <img src="assets/images/counter/03.svg" alt="">
+                    </div>
+                    <div class="counter-area">
+                        <h2 class="title"><span class="odometer" data-count="8"></span>+</h2>
+                        <span class="done">Destinos Cubiertos</span>
+                    </div>
+                </div>
+                <div class="counter-wrapper radius-10 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="icon">
+                        <img src="assets/images/counter/04.svg" alt="">
+                    </div>
+                    <div class="counter-area">
+                        <h2 class="title"><span class="odometer" data-count="10"></span>+</h2>
+                        <span class="done">Años de Experiencia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts Counter area end -->
+
+    <?php include __DIR__ . '/footer.php'; ?>
+
+    <div id="anywhere-home" class="">
+    </div>
+
+
+    <!-- side bar area  -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="fa-sharp fa-thin fa-xmark"></i></button>
+        <a class="logo" href="./"><img src="assets/images/logo/logo.png" alt=""></a>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li><a class="mobile-menu-link" href="./">Inicio</a></li>
+                    <li><a class="mobile-menu-link" href="tours">Tours</a></li>
+                    <li><a class="mobile-menu-link" href="about">Nosotros</a></li>
+                    <li><a class="mobile-menu-link" href="contact">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="follow-us">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61585735384700" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/intriguingtours_1996" aria-label="instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@intriguingtours_1996" aria-label="tiktok" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- side abr area end -->
+
+    <div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i>
+    </div>
+
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+    <!-- progress area end -->
+
+    <div class="rtl-ltr-switcher-btn">
+        <span class="rtl">Vista Invertida</span>
+        <span class="ltr show">Vista Normal</span>
+    </div>
+
+    <!-- jquery js -->
+    <script defer src="assets/js/plugins/jquery.min.js"></script>
+    <script defer src="assets/js/plugins/bootstrap.min.js"></script>
+    <script defer src="assets/js/plugins/metismenu.js"></script>
+    <script defer src="assets/js/vendor/jqueryui.js"></script>
+    <script defer src="assets/js/vendor/waypoint.js"></script>
+    <script defer src="assets/js/plugins/swiper.js"></script>
+    <script defer src="assets/js/plugins/smoothscroll.js"></script>
+    <script defer src="assets/js/vendor/wow.js"></script>
+    <script defer src="assets/js/plugins/odometer.js"></script>
+    <script defer src="assets/js/plugins/magnific-popup.js"></script>
+    <script defer src="assets/js/plugins/isotop.js"></script>
+    <!-- contact form js -->
+    <script defer src="assets/js/plugins/contact-form.js"></script>
+    <script defer src="assets/js/main.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Magnific Popup para la galería de actividades
+            // Habilita navegación (deslizar/prev-next), botón cerrar y overlay superpuesto
+            $('.popup-gallery').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0,1]
+                },
+                image: {
+                    titleSrc: function(item) {
+                        try {
+                            var $ = window.jQuery;
+                            if ($ && item.el) {
+                                var $el = (item.el instanceof $) ? item.el : $(item.el);
+                                if ($el && $el.length) {
+                                    var $wrapper = $el.closest('.activity-wrapper2');
+                                    if ($wrapper && $wrapper.length) {
+                                        var $title = $wrapper.find('.title');
+                                        if ($title && $title.length) return $title.text();
+                                    }
+                                }
+                            }
+                            var domEl = (item.el && item.el.nodeType) ? item.el : (item.el && item.el[0]) ? item.el[0] : null;
+                            if (domEl) {
+                                var ancestor = domEl.closest ? domEl.closest('.activity-wrapper2') : null;
+                                if (ancestor) {
+                                    var t = ancestor.querySelector('.title');
+                                    if (t) return t.textContent || '';
+                                }
+                            }
+                        } catch (err) {}
+                        return '';
+                    }
+                },
+                closeBtnInside: false,
+                mainClass: 'mfp-fade',
+                removalDelay: 300
+            });
+        });
+    </script>
+
+    <style>
+    .mfp-bg { z-index: 2000 !important; }
+    .mfp-wrap { z-index: 2001 !important; }
+    .mfp-close { color: #fff !important; opacity: 1; right: 12px; top: 12px; }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const regionItems = document.querySelectorAll(".region-area ul li");
+            const destLists = document.querySelectorAll(".destlist");
+
+            regionItems.forEach(item => {
+                item.addEventListener("click", () => {
+                    const region = item.getAttribute("data-region");
+                    regionItems.forEach(li => li.classList.remove("active"));
+                    item.classList.add("active");
+                    destLists.forEach(list => {
+                        if (list.getAttribute("data-region") === region) {
+                            list.classList.add("active");
+                        } else {
+                            list.classList.remove("active");
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+    <script>
+        const projectBlocks = document.querySelectorAll('.project-block-four');
+        projectBlocks.forEach(block => {
+            block.addEventListener('click', function() {
+                projectBlocks.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                includedLanguages: 'es,en'
+            }, 'google_translate_element');
+        }
+    </script>
+</body>
+
+</html>
