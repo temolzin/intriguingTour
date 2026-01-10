@@ -4,14 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php
-    // Detectar la ruta base automáticamente
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-    $host = $_SERVER['HTTP_HOST'];
-    $script_path = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-    $base_url = $protocol . $host . $script_path;
-    ?>
-    <base href="<?php echo $base_url; ?>">
+    <base href="/">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo.png">
     <title>Intriguing Tours Teotihuacan</title>
     <!-- swiper css -->
