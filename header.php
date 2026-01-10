@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="/">
+    <base href="<?php echo (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? '/IntriguingTours/' : '/'; ?>">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo.png">
     <title>Intriguing Tours Teotihuacan</title>
     <!-- swiper css -->

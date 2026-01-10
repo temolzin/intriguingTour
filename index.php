@@ -578,15 +578,6 @@
             });
         });
     </script>
-
-    <script>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'es',
-                includedLanguages: 'es,en'
-            }, 'google_translate_element');
-        }
-    </script>
 </body>
 
 </html>
