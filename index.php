@@ -113,11 +113,18 @@
             <div class="section-inner position-relative mt--60 pb--80 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="swiper trip-slider3">
                     <div class="swiper-wrapper">
+                        <?php
+                        // Cargar tours desde JSON
+                        $toursData = json_decode(file_get_contents('assets/data/tours.json'), true);
+                        
+                        foreach ($toursData as $tourId => $tour):
+                            $formattedPrice = number_format($tour['price'], 0, '.', ',');
+                        ?>
                         <div class="swiper-slide">
                             <div class="package-wrapper2 radius-10 image-transform">
                                 <div class="image-area">
-                                    <a href="tour-details/1">
-                                        <img class="hover-image" src="assets/images/package/tourGlobo.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
+                                    <a href="tour-details/<?php echo $tourId; ?>">
+                                        <img class="hover-image" src="<?php echo $tour['images'][0]; ?>" alt="" style="width: 100%; height: 250px; object-fit: cover;">
                                     </a>
                                 </div>
                                 <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
@@ -125,134 +132,15 @@
                                     <ul class="meta-content">
                                         <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
                                     </ul>
-                                    <h5 class="title"><a href="tour-details/1">Globo + Desayuno + Pirámides</a></h5>
+                                    <h5 class="title"><a href="tour-details/<?php echo $tourId; ?>"><?php echo $tour['title']; ?></a></h5>
                                     <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 1 Hora</p>
-                                        <p class="price">Desde $150</p>
+                                        <p><i class="fa-light fa-clock"></i> <?php echo $tour['duration']; ?></p>
+                                        <p class="price">Desde $<?php echo $formattedPrice; ?></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="package-wrapper2 radius-10 image-transform">
-                                <div class="image-area">
-                                    <a href="tour-details/2">
-                                        <img class="hover-image" src="assets/images/package/tourCueva.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                                    </a>
-                                </div>
-                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
-                                <div class="content">
-                                    <ul class="meta-content">
-                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
-                                    </ul>
-                                    <h5 class="title"><a href="tour-details/2">Cuevas + Pirámides con Transporte</a></h5>
-                                    <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 2 Horas</p>
-                                        <p class="price">Desde $250</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="package-wrapper2 radius-10 image-transform">
-                                <div class="image-area">
-                                    <a href="tour-details/3">
-                                        <img class="hover-image" src="assets/images/package/piramyds.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                                    </a>
-                                </div>
-                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
-                                <div class="content">
-                                    <ul class="meta-content">
-                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
-                                    </ul>
-                                    <h5 class="title"><a href="tour-details/3">Pirámides + Transporte</a></h5>
-                                    <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 3 Horas</p>
-                                        <p class="price">Desde $350</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="package-wrapper2 radius-10 image-transform">
-                                <div class="image-area">
-                                    <a href="tour-details/4">
-                                        <img class="hover-image" src="assets/images/package/tourglobos.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                                    </a>
-                                </div>
-                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
-                                <div class="content">
-                                    <ul class="meta-content">
-                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
-                                    </ul>
-                                    <h5 class="title"><a href="tour-details/4">Globo + Desayuno Buffet</a></h5>
-                                    <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 4 Horas</p>
-                                        <p class="price">Desde $450</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="package-wrapper2 radius-10 image-transform">
-                                <div class="image-area">
-                                    <a href="tour-details/5">
-                                        <img class="hover-image" src="assets/images/package/tour4.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                                    </a>
-                                </div>
-                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
-                                <div class="content">
-                                    <ul class="meta-content">
-                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
-                                    </ul>
-                                    <h5 class="title"><a href="tour-details/5">Pirámides Exprés</a></h5>
-                                    <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 1.5 Horas</p>
-                                        <p class="price">Desde $200</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="package-wrapper2 radius-10 image-transform">
-                                <div class="image-area">
-                                    <a href="tour-details/6">
-                                        <img class="hover-image" src="assets/images/package/tour02globo.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                                    </a>
-                                </div>
-                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
-                                <div class="content">
-                                    <ul class="meta-content">
-                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
-                                    </ul>
-                                    <h5 class="title"><a href="tour-details/6">Globo sin Transporte</a></h5>
-                                    <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 2 Horas</p>
-                                        <p class="price">Desde $300</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="package-wrapper2 radius-10 image-transform">
-                                <div class="image-area">
-                                    <a href="tour-details/7">
-                                        <img class="hover-image" src="assets/images/package/tourCuatrimotos.jpg" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                                    </a>
-                                </div>
-                                <a href="#" class="wishlist"><i class="fa-light fa-heart"></i></a>
-                                <div class="content">
-                                    <ul class="meta-content">
-                                        <li><i class="fa-light fa-location-dot"></i> Teotihuacan</li>
-                                    </ul>
-                                    <h5 class="title"><a href="tour-details/7">Cuatrimoto (2 personas)</a></h5>
-                                    <div class="bottom-meta">
-                                        <p><i class="fa-light fa-clock"></i> 3 Horas</p>
-                                        <p class="price">Desde $500</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
                 <div class="swiper-nav-pag-area">

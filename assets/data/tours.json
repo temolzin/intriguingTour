@@ -5,7 +5,7 @@
     "old_price": 4559,
     "duration": "7-8 horas",
     "images": ["assets/images/package/tourGlobo.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourCueva.jpg"],
-    "overview": "Vuelo en globo con desayuno buffet, entradas a la zona arqueológica, guía certificado ES/EN, transporte ida y vuelta, degustación de bebidas artesanales y explicación de obsidiana.",
+    "overview": "Vuelo en globo con desayuno buffet, entradas a la zona arqueológica, guía certificado Español/Inglés, transporte ida y vuelta, degustación de bebidas artesanales y explicación de obsidiana.",
     "includes": [
       "Transportación desde hotel/Airbnb (ida y vuelta)",
       "Coffee break",
@@ -15,7 +15,7 @@
       "Brindis con vino espumoso",
       "Desayuno buffet",
       "Entradas a zona arqueológica",
-      "Guía certificado ES/EN",
+      "Guía certificado Español/Inglés",
       "Degustación de pulque y tequila",
       "Explicación de obsidiana",
       "Botella de agua"
@@ -52,11 +52,11 @@
     "price": 2200,
     "old_price": 2640,
     "duration": "6 horas",
-    "images": ["assets/images/package/tourglobos.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tourCueva.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg"],
+    "images": ["assets/images/package/tourCueva2.jpeg", "assets/images/package/tourCueva3.jpeg", "assets/images/package/tourCueva.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg"],
     "overview": "Entradas y guía a pirámides, cuevas ancestrales, casa del artesano, degustación de bebidas y explicación de obsidiana, con transporte ida y vuelta.",
     "includes": [
       "Transportación desde hotel/Airbnb (ida y vuelta)",
-      "Entradas y guía certificado ES/EN en pirámides",
+      "Entradas y guía certificado Español/Inglés en pirámides",
       "Visita a cuevas ancestrales (boleto incluido)",
       "Visita a casa del artesano",
       "Degustación de pulque y tequila",
@@ -99,7 +99,7 @@
     "overview": "Entradas y guía a pirámides con transporte ida y vuelta, casa del artesano y degustación de bebidas.",
     "includes": [
       "Transportación desde hotel/Airbnb (ida y vuelta)",
-      "Entradas y guía certificado ES/EN en pirámides",
+      "Entradas y guía certificado Español/Inglés en pirámides",
       "Visita a casa del artesano",
       "Degustación de pulque y tequila",
       "Seguro de viajero",
@@ -174,7 +174,7 @@
     "images": ["assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourGlobo.jpg", "assets/images/package/tourglobos.jpg", "assets/images/package/tourCueva.jpg"],
     "overview": "Entradas y guía a pirámides con degustación y explicación de obsidiana. No incluye transporte.",
     "includes": [
-      "Entradas y guía certificado ES/EN en pirámides",
+      "Entradas y guía certificado Español/Inglés en pirámides",
       "Visita a casa del artesano",
       "Degustación de bebidas artesanales y obsidiana",
       "Botella de agua"
@@ -240,6 +240,7 @@
     "title": "Paquete 7: Cuatrimoto (2 personas)",
     "price": 1600,
     "old_price": 1920,
+    "price_unit": "cuatrimoto",
     "duration": "2.5-3 horas",
     "images": ["assets/images/package/tourCuatrimotos.jpg", "assets/images/package/tourCueva.jpg", "assets/images/package/piramyds.jpg", "assets/images/package/tour4.jpg", "assets/images/package/tourGlobo.jpg"],
     "overview": "Tour en cuatrimoto para dos personas por circuito arqueológico externo, con cueva ancestral y degustaciones.",
@@ -281,7 +282,7 @@
     "overview": "Visita a pirámides con guía y entradas, desayuno buffet (La Cueva o Gran Teocalli), transporte ida y vuelta, degustación y explicación de obsidiana.",
     "includes": [
       "Transportación desde hotel/Airbnb (ida y vuelta)",
-      "Entradas y guía certificado ES/EN en pirámides",
+      "Entradas y guía certificado Español/Inglés en pirámides",
       "Desayuno buffet (Gran Teocalli o La Cueva)",
       "Explicación de obsidiana y degustación de bebidas",
       "Hidratación"

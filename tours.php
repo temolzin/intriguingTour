@@ -255,13 +255,14 @@ function renderTours(filteredTours) {
     const container = document.getElementById('tours-container');
     container.innerHTML = '';
     filteredTours.forEach(tour => {
+        const priceUnit = tour.price_unit || 'persona';
         const tourHTML = `
             <div class="col-xl-4 col-lg-6 col-md-6 col-12 tour-item" data-price="${tour.price}" data-duration="${tour.durationFilter}" data-type="${tour.type}">
                 <div class="tour-wrapper radius-10 image-transform border">
                     <div class="image-area radius-6">
                         <a href="tour-details/${tour.id}">
                             <img class="hover-image" src="${tour.image}" alt="" style="width: 100%; height: 250px; object-fit: cover;">
-                            <span class="tag">$${tour.price}/persona</span>
+                            <span class="tag">$${tour.price}/${priceUnit}</span>
                         </a>
                     </div>
                     <div class="content">

@@ -17,6 +17,58 @@
     <!-- rts breadcrumb area end -->
     <!-- breadcrumb area end -->
 
+    <!-- rts Philosophy area start -->
+    <section class="rts-philosophy-area rts-section-gap">
+        <div class="container">
+            <div class="section-title-area center-style">
+                <p class="sub-title wow fadeInUp" data-wow-delay="0.2s">Nuestra Filosofía</p>
+                <h2 class="section-title wow fadeInUp" data-wow-delay="0.4s">CONOCIENDO TUS RAÍCES</h2>
+            </div>
+            <div class="section-inner mt--60">
+                <div class="row g-4">
+                    <!-- Misión -->
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="philosophy-card radius-10 body-bg-one h-100 p-4">
+                            <div class="icon-wrapper mb-3">
+                                <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #BA6827 0%, #E8945F 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fa-solid fa-bullseye" style="font-size: 28px; color: white;"></i>
+                                </div>
+                            </div>
+                            <h4 class="title mb-3">Misión</h4>
+                            <p class="desc">Nuestra compañía está dedicada a ofrecerte experiencias intrigantes en la Ciudad de los Dioses, donde nuestro deber es hacerte sentir cómodo con nosotros y hacer de esto un momento inolvidable.</p>
+                        </div>
+                    </div>
+
+                    <!-- Visión -->
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="philosophy-card radius-10 body-bg-one h-100 p-4">
+                            <div class="icon-wrapper mb-3">
+                                <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #119CE6 0%, #5CB8E8 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fa-solid fa-eye" style="font-size: 28px; color: white;"></i>
+                                </div>
+                            </div>
+                            <h4 class="title mb-3">Visión</h4>
+                            <p class="desc">Dar experiencias que dejen huella en el cliente, garantizando recomendaciones al turista nacional y extranjero. Con ello alcanzar mayor número de visitas en el Edo. Méx. y CDMX.</p>
+                        </div>
+                    </div>
+
+                    <!-- Objetivo -->
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="philosophy-card radius-10 body-bg-one p-4">
+                            <div class="icon-wrapper mb-3">
+                                <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #28a745 0%, #5FCF80 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                                    <i class="fa-solid fa-chart-line" style="font-size: 28px; color: white;"></i>
+                                </div>
+                            </div>
+                            <h4 class="title mb-3">Objetivo</h4>
+                            <p class="desc">Garantizar la satisfacción del turista en todo momento posible. Con ello ganarnos su confianza y recomendación a mediano plazo, así como el incremento en paquetes y tours en Teotihuacan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- rts Philosophy area end -->
 
     <!-- rts story area start -->
     <section class="rts-story-area rts-section-gap">

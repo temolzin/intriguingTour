@@ -31,6 +31,7 @@ $tour += [
     'title' => 'Tour no disponible',
     'price' => 0,
     'old_price' => 0,
+    'price_unit' => 'persona',
     'duration' => '',
     'images' => ['', '', '', ''],
     'overview' => '',
@@ -47,6 +48,7 @@ $tourExcludes   = $tour['excludes']   ?? [];
 $tourHighlights = $tour['highlights'] ?? [];
 $tourItinerary  = $tour['itinerary']  ?? [];
 $tourFaqs       = $tour['faqs']       ?? [];
+$priceUnit      = $tour['price_unit'] ?? 'persona';
 
 // Helpers para banderas rápidas en UI
 $hasTransport = array_reduce($tourIncludes, function ($carry, $item) {
@@ -82,28 +84,28 @@ $tourType = stripos($tour['title'], 'globo') !== false ? 'Globo Aerostático' : 
             <div class="top-image-area">
                 <div class="row g-3">
                     <div class="col-lg-6">
-                        <div class="image image-transform radius-10 overflow-hidden" style="height: 100%;">
-                            <img class="hover-image" src="<?php echo $tour['images'][0]; ?>" alt="" style="width: 100%; height: 100%; object-fit: cover; min-height: 400px;">
+                        <div class="image image-transform radius-10 overflow-hidden" style="height: 409px;">
+                            <img class="hover-image" src="<?php echo $tour['images'][0]; ?>" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="image image-transform radius-10 overflow-hidden mb-3">
-                            <img class="hover-image" src="<?php echo $tour['images'][1]; ?>" alt="" style="width: 100%; height: 198px; object-fit: cover;">
+                        <div class="image image-transform radius-10 overflow-hidden mb-3" style="height: 198px;">
+                            <img class="hover-image" src="<?php echo $tour['images'][1]; ?>" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="row g-3">
                             <div class="col-4">
-                                <div class="image image-transform radius-10 overflow-hidden">
-                                    <img class="hover-image" src="<?php echo $tour['images'][2]; ?>" alt="" style="width: 100%; height: 198px; object-fit: cover;">
+                                <div class="image image-transform radius-10 overflow-hidden" style="height: 198px;">
+                                    <img class="hover-image" src="<?php echo $tour['images'][2]; ?>" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="image image-transform radius-10 overflow-hidden">
-                                    <img class="hover-image" src="<?php echo $tour['images'][3]; ?>" alt="" style="width: 100%; height: 198px; object-fit: cover;">
+                                <div class="image image-transform radius-10 overflow-hidden" style="height: 198px;">
+                                    <img class="hover-image" src="<?php echo $tour['images'][3]; ?>" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="image image-transform radius-10 overflow-hidden">
-                                    <img class="hover-image" src="<?php echo $tour['images'][4]; ?>" alt="" style="width: 100%; height: 198px; object-fit: cover;">
+                                <div class="image image-transform radius-10 overflow-hidden" style="height: 198px;">
+                                    <img class="hover-image" src="<?php echo $tour['images'][4]; ?>" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
                         </div>
@@ -124,7 +126,7 @@ $tourType = stripos($tour['title'], 'globo') !== false ? 'Globo Aerostático' : 
                             <div class="right-content">
                                 <div class="day-left">
                                     <h4><?php echo $tour['price']; ?></h4>
-                                    <p>MXN/persona</p>
+                                    <p>MXN/<?php echo $priceUnit; ?></p>
                                 </div>
                             </div>
                         </div>
