@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Directorio index
+DirectoryIndex index.php index.html
+
 # Página 404 personalizada
 ErrorDocument 404 /404NotFound/index.html
 
