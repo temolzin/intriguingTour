@@ -69,7 +69,7 @@
                                     <span class="cross"><i class="fa-regular fa-chevron-up"></i></span>
                                 </div>
                                 <div class="trip-type side-box">
-                                    <h6>Tipo de Tour</h6>
+                                    <h6>Categoría de Tour</h6>
                                     <ul class="checkbox-list">
                                         <li class="checkbox-item">
                                             <label class="checkbox-label">

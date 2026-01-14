@@ -162,7 +162,7 @@ $tourType = stripos($tour['title'], 'globo') !== false ? 'Globo Aerostático' : 
                             <li>
                                 <div class="icon"><img src="assets/images/trip/icon/07.svg" alt=""></div>
                                 <div class="text">
-                                    <p>Tipo</p>
+                                    <p>Categoría</p>
                                     <h6><?php echo $tourType; ?></h6>
                                 </div>
                             </li>
@@ -219,8 +219,8 @@ $tourType = stripos($tour['title'], 'globo') !== false ? 'Globo Aerostático' : 
                                 <div class="tab-content-inner">
                                     <div class="highlight-area">
                                         <h5 class="title">Desglose del Costo</h5>
-                                        <p class="desc mb--10">Precio actual: $<?php echo $tour['price']; ?> MXN / persona (antes $<?php echo $tour['old_price']; ?>). Ahorra $<?php echo $tour['old_price'] - $tour['price']; ?> por persona.</p>
-                                        <p class="desc mb--20">Duración: <?php echo $tour['duration']; ?> · Tipo: <?php echo $tourType; ?></p>
+                                        <p class="desc mb--10">Precio actual: $<?php echo $tour['price']; ?> MXN / <?php echo $tour['price_unit']; ?> (antes $<?php echo $tour['old_price']; ?>). Ahorra $<?php echo $tour['old_price'] - $tour['price']; ?> por <?php echo $tour['price_unit']; ?>.</p>
+                                        <p class="desc mb--20">Duración: <?php echo $tour['duration']; ?> · Categoría: <?php echo $tourType; ?></p>
                                         <ul class="mb--30">
                                             <li class="tag mb--10 c-p">Incluido:</li>
                                             <?php foreach ($tourIncludes as $include): ?>
